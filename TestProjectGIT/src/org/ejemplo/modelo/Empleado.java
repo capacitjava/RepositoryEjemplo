@@ -6,6 +6,17 @@ public class Empleado {
 	private String nombre;
 	private String salario;
 	
+	
+	public Empleado() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Empleado(int id, String nombre, String salario) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.salario = salario;
+	}
 	public int getId() {
 		return id;
 	}
